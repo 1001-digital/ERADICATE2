@@ -1,0 +1,5 @@
+.DS_Store
+*.o
+init_code
+.vscode
+ERADICATE2.x64

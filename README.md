@@ -21,8 +21,10 @@ usage: ./ERADICATE2 [OPTIONS]
     --leading-doubles       Score on hashes leading with hexadecimal pairs
 
   Modes with arguments:
-    --leading <single hex>  Score on hashes leading with given hex character.
-    --matching <hex string> Score on hashes matching given hex string.
+    --leading <single hex>      Score on hashes leading with given hex character.
+    --matching <hex string>     Score on hashes matching given hex string.
+    --leadtrailing <hex string> Score on hashes matching given start and end strings, separated by comma (e.g. `000000,88888888`)
+    --trailing <hex string>     Score on hashes matching given trailing string.
 
   Advanced modes:
     --leading-range         Scores on hashes leading with characters within

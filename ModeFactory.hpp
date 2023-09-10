@@ -14,6 +14,8 @@ class ModeFactory {
 		static mode matching(const std::string strHex);
 		static mode range(const cl_uchar min, const cl_uchar max);
 		static mode leading(const char charLeading);
+		static mode leadtrailing(const std::string start, const std::string end);
+		static mode trailing(const std::string end);
 		static mode leadingRange(const cl_uchar min, const cl_uchar max);
 		static mode mirror();
 
